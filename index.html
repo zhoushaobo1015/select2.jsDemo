@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/new_select2/select2.css" />
+		<title></title>
+	</head>
+	<body>
+		<h6>select2.js拼音搜索Demo最新版</h6>
+            <select id="e1" style="width:40%;">
+			       <option title="请选择省" value="-1" >请选择省...</option>
+			       <option title="北京" value="110000" >北京</option>
+			       <option title="安徽省" value="340000" >安徽省</option>
+			       <option title="福建省" value="350000" >福建省</option>
+			       <option title="江西省" value="360000" >江西省</option>
+			       <option title="山东省" value="370000" >山东省</option>
+			       <option title="河南省" value="410000" >河南省</option>
+			       <option title="湖北省" value="420000" >湖北省</option>
+			       <option title="湖南省" value="430000" >湖南省</option>
+			       <option title="天津" value="120000" >天津</option>
+			       <option title="广东省" value="440000" >广东省</option>
+			       <option title="广西壮族自治区" value="450000" >广西壮族自治区</option>
+			       <option title="山西省" value="140000" >山西省</option>
+			       <option title="海南省" value="460000" >海南省</option>
+			       <option title="重庆" value="500000" >重庆</option>
+			       <option title="四川省" value="510000" >四川省</option>
+			       <option title="贵州省" value="520000" >贵州省</option>
+			       <option title="云南省" value="530000" >云南省</option>
+			       <option title="西藏自治区" value="540000" >西藏自治区</option>
+			       <option title="陕西省" value="610000" >陕西省</option>
+			       <option title="甘肃省" value="620000" >甘肃省</option>
+			       <option title="青海省" value="630000" >青海省</option>
+			       <option title="宁夏回族自治区" value="640000" >宁夏回族自治区</option>
+			       <option title="新疆维吾尔自治区" value="650000" >新疆维吾尔自治区</option>
+			       <option title="台湾省" value="710000" >台湾省</option>
+			       <option title="香港特别行政区" value="810000" >香港特别行政区</option>
+			       <option title="澳门特别行政区" value="820000" >澳门特别行政区</option>
+			       <option title="内蒙古自治区" value="150000" >内蒙古自治区</option>
+			       <option title="河北省" value="130000" >河北省</option>
+			       <option title="辽宁省" value="210000" >辽宁省</option>
+			       <option title="吉林省" value="220000" >吉林省</option>
+			       <option title="黑龙江省" value="230000" >黑龙江省</option>
+			       <option title="上海" value="310000" >上海</option>
+			       <option title="江苏省" value="320000" >江苏省</option>
+			       <option title="浙江省" value="330000" >浙江省</option>
+            </select>
+            
+ <script type="text/javascript" src="js/jquery-2.0.3.min.js" ></script>  
+ <script type="text/javascript" src="js/i18n/zh-CN.js" ></script>
+ <script type="text/javascript" src="js/new_select2/pinyin.js" ></script>
+ <script type="text/javascript" src="js/new_select2/select2.js" ></script>
+ 
+ 
+<script type="text/javascript">
+        $("#e1").select2({
+            language: "zh-CN",
+	        placeholder: "选择省..",
+	        allowClear: true,
+        });
+ </script>       
+        
+	</body>
+</html>
